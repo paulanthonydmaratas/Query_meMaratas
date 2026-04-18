@@ -139,7 +139,6 @@ public class User {
         } catch (Exception e) {
             System.err.println("Create User Credential Error:\n" + e);
         }
-        System.out.println("Updation Failed.");
     }
 
     public boolean getUser(String id){
