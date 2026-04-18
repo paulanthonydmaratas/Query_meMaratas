@@ -152,7 +152,7 @@ public class User {
                 System.out.print("User ID: " + res.getInt("id"));
                 System.out.print(" | Username: " + res.getString("username"));
             }else{
-                output = false;
+                output = false; 
             }
             con.close();
         } catch (Exception e) {
